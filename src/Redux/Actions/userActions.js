@@ -14,7 +14,7 @@ import {
   USER_LOGOUT,
 } from "../Constants/UserContants";
 
-axios.defaults.baseURL = "http://localhost:5000";
+axios.defaults.baseURL = "https://server-booking-raft-boat.onrender.com";
 
 // LOGIN
 export const login = (email, password) => async (dispatch) => {
